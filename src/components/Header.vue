@@ -6,7 +6,6 @@
           <v-list-tile-avatar>
             <img src="https://randomuser.me/api/portraits/men/85.jpg" />
           </v-list-tile-avatar>
-
           <v-list-tile-content>
             <v-list-tile-title>John Leider</v-list-tile-title>
           </v-list-tile-content>
@@ -23,15 +22,12 @@
           hide-details
         ></v-text-field>
       </v-list>
-
       <v-list class="pt-0" dense>
         <v-divider></v-divider>
-
         <v-list-tile v-for="item in items" :key="item.title" :to="item.to">
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-tile-action>
-
           <v-list-tile-content>
             <v-list-tile-title>{{ item.title }}</v-list-tile-title>
           </v-list-tile-content>
@@ -61,7 +57,6 @@
           v-show="showSearchInput"
         ></v-text-field>
       </v-expand-x-transition>
-
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn icon @click="showSearchInput = !showSearchInput">
           <v-icon>search</v-icon>
@@ -76,7 +71,6 @@
 <script>
 export default {
   name: "Header",
-
   data() {
     return {
       drawer: null,
