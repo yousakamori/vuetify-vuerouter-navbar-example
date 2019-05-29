@@ -1,4 +1,4 @@
-# vuetify-vuerouter-navbar
+# vuetify-vuerouter-navba-example
 
 ## Project setup
 
