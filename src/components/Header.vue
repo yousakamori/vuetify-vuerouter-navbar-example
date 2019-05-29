@@ -50,6 +50,7 @@
       <v-spacer></v-spacer>
       <v-expand-x-transition>
         <v-text-field
+          class="hidden-sm-and-down"
           clearable
           flat
           label="Search"
